@@ -1,6 +1,6 @@
 # Team possession estimation: technical document
 
-**Team:** `Cules of Duty` &nbsp;|&nbsp; **File to submit:** `Cules of Duty.csv` &nbsp;|&nbsp; **Repository:** [[FILL: public repository URL]]
+**Team:** `Cules of Duty` &nbsp;|&nbsp; **File to submit:** `Cules of Duty.csv` &nbsp;|&nbsp; **Repository:** (https://github.com/FutureVIPBoss/More-than-a-Hack)
 
 ---
 
@@ -84,4 +84,4 @@ What makes the file reproducible:
 - **Exported files.** The run writes the submission `evaluation/results/Cules of Duty.csv` and, in `runs/`, the run record as JSON (`Cules of Duty_config.json`, `Cules of Duty_final_model.json`) and as CSV (`Cules of Duty_run_summary.csv`: settings, library versions, pinned estimators, checksum); it prints the full path of each.
 - **Data and caches stay out of git.** The match data and `cache/` are git-ignored; the repository holds code, the document and the submission file only.
 
-The submitted file has MD5 `a62d4c09ce5107ad97c9be15b86e8a42` (printed by the run of the final notebook; the file is written to `evaluation/results/Cules of Duty.csv`). `reproduce.py` prints the MD5, and running it twice gives the same MD5 [[FILL: confirm]]. Runtime on a laptop: [[FILL]] minutes.
+The submitted file has MD5 `a62d4c09ce5107ad97c9be15b86e8a42` (printed by the run of the final notebook; the file is written to `evaluation/results/Cules of Duty.csv`). `reproduce.py` prints the MD5, and running it twice gives the same MD5 for reproducibility. Runtime on a laptop: 7 minutes.
